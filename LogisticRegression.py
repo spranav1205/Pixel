@@ -20,3 +20,10 @@ y_pred=logreg.predict(x_test)
 
 print(classification_report(y_test,y_pred))
 print(accuracy_score(y_test,y_pred))
+
+''' 
+The limitations are as follows 
+ - Overfitting
+ - Linearity (we assume linearity)
+ - Any anomaly in the data set should be taken care off before training the data 
+'''
